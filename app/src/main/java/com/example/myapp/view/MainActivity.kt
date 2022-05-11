@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
             when(item.itemId){
                 R.id.home -> {
                     supportFragmentManager.beginTransaction().replace(R.id.container, HomeFragment()).commit()
+                    //hui
                     return@setOnItemSelectedListener true
                 }
                 R.id.shop -> {
